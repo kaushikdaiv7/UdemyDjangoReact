@@ -10,7 +10,7 @@ router.register('books', BookViewSet)
 urlpatterns = [
     path('first', views.first),
     path('second', views.second),
-    path('another', views.Another.as_view()),
+    # path('another', views.Another.as_view()),
     path('third', views.third),
     path('', include(router.urls))
 ]
